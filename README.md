@@ -15,7 +15,7 @@ As a minimum, you'll want:
 - A machine running **macOS Ventura 13.0 or later**
 - A graphics card capable of the full **Metal 2 API**.
 - 8GB of system memory
-- 256GB of storage
+- 256GB of SSD storage
 - A standalone VR headset
   - Our tests will be conducted with the Meta Quest 2 and Pico 4
   - PCVR-only headset support is being researched
