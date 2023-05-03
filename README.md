@@ -9,7 +9,7 @@ Pretty much how we explained in the description above! MORE IN DEPTH INFO COMING
 You can download the latest disk image from our [Releases](https://github.com/PeaPodDevs/MetalXR) page.
 
 ## What are the requirements?  
-As of now, we only support standalone* Android headsets (Meta Quest, Pico Neo, etc) because of limitations with macOS USB and DisplayPort handling.Feel 
+As of now, we only support standalone* Android headsets (Meta Quest, Pico Neo, etc) because of limitations with macOS USB and DisplayPort handling.
 
 As a minimum, you'll want:
 - A machine running **macOS Ventura 13.0 or later**
