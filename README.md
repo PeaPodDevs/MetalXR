@@ -1,6 +1,6 @@
 # MetalXR | SteamVR*/OpenXR on MacOS!
 
-### MetalXR is a full-scale implementation of OpenComposite and OpenXR on MacOS including support for launching SteamVR applications by utilizing layering such as Box64.
+### MetalXR is a full-scale implementation of OpenComposite and OpenXR on MacOS including support for launching SteamVR applications by utilizing layering such as Box64 (For M1).
 
 ## How does it work?
 Pretty much how we explained in the description above! MORE IN DEPTH INFO COMING SOON!
