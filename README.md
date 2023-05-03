@@ -6,23 +6,35 @@
 Pretty much how we explained in the description above! MORE IN DEPTH INFO COMING SOON!
 
 ## How can I install it?
-You can download the latest DMG from our releases page which can be installed just like any other DMG/MacOS application.
+You can download the latest disk image from our [Releases](https://github.com/PeaPodDevs/MetalXR) page.
 
-## What are the requirements?
-As of now, we only support standalone* Android headsets (Meta Quest, Pico Neo, etc) because of limitations with MacOS USB and DisplayPort handling. Feel free to create a PR if you have a way around this or have added support for a specific headset!
+## What are the requirements?  
+As of now, we only support standalone* Android headsets (Meta Quest, Pico Neo, etc) because of limitations with macOS USB and DisplayPort handling.Feel 
 
-You will also need to have a Mac with **dedicated graphics** (unless on M1*) that support **Metal 2 or above**, without **both** of these you will either run like a potato or not at all. This is usaully only going to be Mac's from 2018 or later however utilizing upgrades to older Mac's (like an eGPU) should get you over the bar.
+As a minimum, you'll want:
+- A machine running **macOS Ventura 13.0 or later**
+- A graphics card capable of the full **Metal 2 API**.
+- 8GB of system memory
+- 256GB of storage
+- A standalone VR headset
+  - Our tests will be conducted with the Meta Quest 2 and Pico 4
+  - PCVR-only headset support is being researched
+  - Free to create a PR if you have added support for PCVR-only or a new headset!
 
-**We recommend Mac's with at least:**
-* 16GB of RAM
-* 4GB of VRAM
-* An Intel Core i7-6660U*
-* and 256GB of **SSD** Storage
+We recommend:
+- A machine running the latest macOS release
+- A **dedicated** graphics card capable of the full **Metal 3 API**
+- 4GB of video memory
+- 16GB of system memory
+- 256GB of SSD storage
+- A standalone VR headset
+
+If you don't know whether or not your GPU supports Metal 2 or Metal 3, [you can check here.](https://crystall1ne.dev/2023/05/03/metal-1-2-or-3/)
 
 ## Credits and more info!
 This project has been created and is maintained by the following:
-* CADIndie | Project Manager/Researcher
-* Crystall1nedev | Lead Swift/MacOS* Developer
-* TheJudge156 | Lead OXR and OC Developer
+* [CADIndie](https://github.com/CADIndie) | Project Manager/Researcher
+* [crystall1nedev](https://github.com/crystall1nedev) | Lead Swift/macOS Developer
+* [TheJudge156](https://github.com/thejudge156) | Lead OXR and OC Developer
 
 (more coming soon!)
