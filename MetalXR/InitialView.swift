@@ -25,7 +25,7 @@ struct InitialView: View {
                     .task(beginScanningForDevices)
                 
                 HStack {
-                    if isInstalled {
+                    if isDeviceConnected && isInstalled {
                         NavigationLink { HomeView() } label: { Text("Open MetalXR") }
                     } else {
                         Button(action: {
