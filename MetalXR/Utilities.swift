@@ -1,11 +1,19 @@
 //
-//  ADBUtilities.swift
+//  Utilities.swift
 //  MetalXR
 //
 //  Created by Eilionoir Tunnicliff on 5/3/23.
 //
 
 import Foundation
+
+#if DEBUG
+let debugName = "debug"
+#else
+let debugName = "release"
+#endif
+
+let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
 
 func launchADBServer() {
     /*
@@ -67,7 +75,7 @@ func runCommandHeadless(command: String, shouldPrintOutput: Bool) {
     if shouldPrintOutput { print("[Command] Output of command: " + result) }
 }
 
-func runCommand(command: String, shouldPrintOutput: Bool) -> String {
+func runCommand(command: String, shouldPrintOutput: Bool, directory: String) -> String {
     /*
      Function to run generic commands
      Working directory is the user's home folder

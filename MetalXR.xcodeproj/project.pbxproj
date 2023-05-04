@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		05029ACE2A03254D002C5002 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05029ACD2A03254D002C5002 /* HomeView.swift */; };
-		05029AD02A033DC0002C5002 /* ADBUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05029ACF2A033DC0002C5002 /* ADBUtilities.swift */; };
+		05029AD02A033DC0002C5002 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05029ACF2A033DC0002C5002 /* Utilities.swift */; };
 		FE9DA4512A00C33A00DF5C37 /* MetalXRApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA4502A00C33A00DF5C37 /* MetalXRApp.swift */; };
 		FE9DA4532A00C33A00DF5C37 /* InitialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9DA4522A00C33A00DF5C37 /* InitialView.swift */; };
 		FE9DA4552A00C33C00DF5C37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9DA4542A00C33C00DF5C37 /* Assets.xcassets */; };
@@ -18,7 +18,7 @@
 
 /* Begin PBXFileReference section */
 		05029ACD2A03254D002C5002 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		05029ACF2A033DC0002C5002 /* ADBUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADBUtilities.swift; sourceTree = "<group>"; };
+		05029ACF2A033DC0002C5002 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		FE9DA44D2A00C33A00DF5C37 /* MetalXR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalXR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9DA4502A00C33A00DF5C37 /* MetalXRApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalXRApp.swift; sourceTree = "<group>"; };
 		FE9DA4522A00C33A00DF5C37 /* InitialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialView.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				FE9DA4502A00C33A00DF5C37 /* MetalXRApp.swift */,
-				05029ACF2A033DC0002C5002 /* ADBUtilities.swift */,
+				05029ACF2A033DC0002C5002 /* Utilities.swift */,
 				FE9DA4522A00C33A00DF5C37 /* InitialView.swift */,
 				05029ACD2A03254D002C5002 /* HomeView.swift */,
 				FE9DA4542A00C33C00DF5C37 /* Assets.xcassets */,
@@ -157,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05029AD02A033DC0002C5002 /* ADBUtilities.swift in Sources */,
+				05029AD02A033DC0002C5002 /* Utilities.swift in Sources */,
 				05029ACE2A03254D002C5002 /* HomeView.swift in Sources */,
 				FE9DA4532A00C33A00DF5C37 /* InitialView.swift in Sources */,
 				FE9DA4512A00C33A00DF5C37 /* MetalXRApp.swift in Sources */,
