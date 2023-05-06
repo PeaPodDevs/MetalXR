@@ -55,18 +55,18 @@ struct InitialView: View {
             }
             .padding()
         }
-        #if DEBUG
+#if DEBUG
         .navigationTitle("MetalXR (" + utils.version + "-" + utils.debugName + ")")
-        #else
+#else
         .navigationTitle("MetalXR")
-        #endif
+#endif
     }
     
     @Sendable func checkForInstalledApp() async {
         isInstalled = utils.runADBCommand(command: "shell pm list packages dev.peapods.MetalXR",
                                           shouldPrintOutput: true).isEqual("package:dev.peapods.MetalXR\n")
         print(isInstalled ? "[Installer] MetalXR is already installed on device." :
-                "[Installer] MetalXR is not installed on device.")
+                            "[Installer] MetalXR is not installed on device.")
     }
     
     @Sendable func beginScanningForDevices() async {
@@ -84,6 +84,7 @@ struct InitialView: View {
     }
     
     func downloadAndInstallAPK() {
+        // TODO: Split this up
         DispatchQueue.global(qos: .background).async {
             // Variable defining phase
             operationIsActive = true

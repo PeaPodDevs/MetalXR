@@ -19,6 +19,8 @@ class Utilities : NSObject {
     
     public let version = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
     
+    public let aprilFools = "04/01"
+    
     public let appDataFolder = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first
     public let appPlatformFolder = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appending(path: "platform-tools")
     public let appLogFolder = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first?.appending(path: "logs")
